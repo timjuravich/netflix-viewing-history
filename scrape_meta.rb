@@ -15,18 +15,23 @@ def get_movie_meta(data)
   response = Net::HTTP.get(uri)
   json = JSON.parse(response, :symbolize_names => true)
 
-  { :year         => json[:Year],
-    :rated        => json[:Rated],
-    :released     => json[:Released],
-    :runtime      => json[:Runtime].chomp(" min"),
-    :genre        => json[:Genre],
-    :director     => json[:Director],
-    :actors       => json[:Actors],
-    :rating       => json[:imdbRating],
-    :type         => json[:Type],
-    :series_title => data[:title].split(":").first,
-    :imdb_id      => json[:imdbID]
-  }
+  if json[:Response] == "True"
+    { :year         => json[:Year],
+      :rated        => json[:Rated],
+      :released     => json[:Released],
+      :runtime      => json[:Runtime].chomp(" min"),
+      :genre        => json[:Genre],
+      :director     => json[:Director],
+      :actors       => json[:Actors],
+      :rating       => json[:imdbRating],
+      :type         => json[:Type],
+      :series_title => data[:title].split(":").first,
+      :imdb_id      => json[:imdbID],
+      :triage       => "false"
+    }
+  else
+    { :triage       => "true" }
+  end
 end
 
 def get_raw_data()
@@ -76,8 +81,8 @@ end
 
 # Rewrite the file including the new meta informatio
 File.open(METADATA_OUTPUT, "w") do |file|
-  file.puts "Date;Title;URL;Source;Type;Runtime;Year;Rated;Released;Genre;Director;Actors;Rating;IMDB ID;Series Title;"
+  file.puts "Date;Title;URL;Source;Type;Runtime;Year;Rated;Released;Genre;Director;Actors;Rating;IMDB ID;Series Title;Triage"
   raw_data.each do |row|
-   file.puts "#{row[:raw]};Netflix;#{row[:type]};#{row[:runtime]};#{row[:year]};#{row[:rated]};#{row[:released]};#{row[:genre]};#{row[:director]};#{row[:actors]};#{row[:rating]};#{row[:imdb_id]};#{row[:series_title]}"
+   file.puts "#{row[:raw]};Netflix;#{row[:type]};#{row[:runtime]};#{row[:year]};#{row[:rated]};#{row[:released]};#{row[:genre]};#{row[:director]};#{row[:actors]};#{row[:rating]};#{row[:imdb_id]};#{row[:series_title]};#{row[:triage]}"
   end
 end

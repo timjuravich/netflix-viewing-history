@@ -315,22 +315,22 @@ Date;Title:URL
 10/3/16;Hinterland: Season 2: "Episode 5";/title/80049817
 10/3/16;Family Guy: Season 14: "Brokeback Swanson";/title/80111455
 10/3/16;Family Guy: Season 14: "Hot Pocket-Dial";/title/80111454
-10/2/16;Marvel's Luke Cage: Season 1: "You Know My Steez";/title/80002550
-10/2/16;Marvel's Luke Cage: Season 1: "Soliloquy of Chaos";/title/80002549
-10/2/16;Marvel's Luke Cage: Season 1: "Now You're Mine";/title/80002548
-10/2/16;Marvel's Luke Cage: Season 1: "Take It Personal";/title/80002547
-10/2/16;Marvel's Luke Cage: Season 1: "DWYCK";/title/80002546
-10/1/16;Marvel's Luke Cage: Season 1: "Blowin' Up the Spot";/title/80002545
-10/1/16;Marvel's Luke Cage: Season 1: "Who's Gonna Take the Weight?";/title/80002540
-10/1/16;Marvel's Luke Cage: Season 1: "Manifest";/title/80002544
+10/2/16;Luke Cage: Season 1: "You Know My Steez";/title/80002550
+10/2/16;Luke Cage: Season 1: "Soliloquy of Chaos";/title/80002549
+10/2/16;Luke Cage: Season 1: "Now You're Mine";/title/80002548
+10/2/16;Luke Cage: Season 1: "Take It Personal";/title/80002547
+10/2/16;Luke Cage: Season 1: "DWYCK";/title/80002546
+10/1/16;Luke Cage: Season 1: "Blowin' Up the Spot";/title/80002545
+10/1/16;Luke Cage: Season 1: "Who's Gonna Take the Weight?";/title/80002540
+10/1/16;Luke Cage: Season 1: "Manifest";/title/80002544
 10/1/16;Mouk: Season 1: "The Stick That Walked Away / In the Paddy Fields";/title/80062947
 10/1/16;Mouk: Season 1: "The Great Crossing / Small Is Beautiful";/title/80062946
-10/1/16;Marvel's Luke Cage: Season 1: "Suckas Need Bodyguards";/title/80002543
+10/1/16;Luke Cage: Season 1: "Suckas Need Bodyguards";/title/80002543
 10/1/16;Hinterland: Season 2: "Episode 4";/title/80049816
-10/1/16;Marvel's Luke Cage: Season 1: "Just to Get a Rep";/title/80002542
-10/1/16;Marvel's Luke Cage: Season 1: "Step in the Arena";/title/80002541
-9/30/16;Marvel's Luke Cage: Season 1: "Code of the Streets";/title/80002539
-9/30/16;Marvel's Luke Cage: Season 1: "Moment of Truth";/title/80002538
+10/1/16;Luke Cage: Season 1: "Just to Get a Rep";/title/80002542
+10/1/16;Luke Cage: Season 1: "Step in the Arena";/title/80002541
+9/30/16;Luke Cage: Season 1: "Code of the Streets";/title/80002539
+9/30/16;Luke Cage: Season 1: "Moment of Truth";/title/80002538
 9/29/16;Family Guy: Season 14: "Peter's Sister";/title/80111453
 9/29/16;Gilmore Girls: Season 2: "Richard in Stars Hollow";/title/80014162
 9/29/16;Gilmore Girls: Season 2: "Secrets and Loans";/title/80014161
