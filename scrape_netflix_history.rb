@@ -5,9 +5,9 @@ require 'date'
 
 # Config
 NETFLIX_LIST_URL     = 'https://www.netflix.com/WiViewingActivity?'
-PAGE_LOAD_WAIT  = 2
-START_TIME      = Date.parse('2009-09-06') # When I started using netflix
-NETFLIX_RAW_OUTPUT  = File.dirname(__FILE__) + "/output/netflix-raw.txt"
+PAGE_LOAD_WAIT       = 2
+START_TIME           = Date.parse('2009-09-06') # When I started using netflix
+NETFLIX_RAW_OUTPUT   = File.dirname(__FILE__) + "/output/netflix-history-raw.txt"
 
 # Character encoding converter instance used to force all HTML output into UTF-8 format
 ICONV           = Iconv.new('UTF-8//IGNORE', 'UTF-8')
@@ -56,12 +56,4 @@ if !File.exist?(NETFLIX_RAW_OUTPUT)
      file.puts "#{line}"
     end
   end
-end
-
-# Read file into a hash
-
-# For each day from start date until now
-(START_TIME..Date.today).each do |date|
-
-  puts date
 end

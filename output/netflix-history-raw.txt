@@ -1,3 +1,4 @@
+Date;Title:URL
 12/22/16;Sarah & Duck: Season 2: "Lost Librarian / Scooter Stand Hill / Music Fixer";/title/80097061
 12/21/16;Paranoid: Season 1: "Episode 8";/title/80123737
 12/21/16;Paranoid: Season 1: "Episode 7";/title/80123736

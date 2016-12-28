@@ -1,0 +1,88 @@
+Date;Title;URL;Type;Runtime;Year;Rated;Released;Genre;Director;Actors;Rating;IMDB ID;Series Title;
+12/26/16;War Pigs;/title/80072386;movie;91;2015;R;18 Sep 2015;Action, War;Ryan Little;Luke Goss, Dolph Lundgren, Chuck Liddell, Mickey Rourke;4.1;tt3779300;War Pigs
+12/26/16;Saints and Soldiers: The Void;/title/80012889;movie;90;2003;PG-13;25 Mar 2005;Action, Adventure, Drama;Ryan Little;Corbin Allred, Alexander Polinsky, Kirby Heyborne, Larry Bagby;6.8;tt0373283;Saints and Soldiers
+12/26/16;The IT Crowd: Series 3: "Calendar Geeks";/title/70124261;series;25;2006–2013;TV-14;03 Feb 2006;Comedy;N/A;Chris O'Dowd, Richard Ayoade, Katherine Parkinson, Matt Berry;8.6;tt0487831;The IT Crowd
+12/26/16;The IT Crowd: Series 3: "Friendface";/title/70124260;series;25;2006–2013;TV-14;03 Feb 2006;Comedy;N/A;Chris O'Dowd, Richard Ayoade, Katherine Parkinson, Matt Berry;8.6;tt0487831;The IT Crowd
+12/26/16;The IT Crowd: Series 3: "The Speech";/title/70124259;series;25;2006–2013;TV-14;03 Feb 2006;Comedy;N/A;Chris O'Dowd, Richard Ayoade, Katherine Parkinson, Matt Berry;8.6;tt0487831;The IT Crowd
+12/26/16;The IT Crowd: Series 3: "Tramps Like Us";/title/70124258;series;25;2006–2013;TV-14;03 Feb 2006;Comedy;N/A;Chris O'Dowd, Richard Ayoade, Katherine Parkinson, Matt Berry;8.6;tt0487831;The IT Crowd
+12/26/16;The IT Crowd: Series 3: "Are We Not Men?";/title/70124257;series;25;2006–2013;TV-14;03 Feb 2006;Comedy;N/A;Chris O'Dowd, Richard Ayoade, Katherine Parkinson, Matt Berry;8.6;tt0487831;The IT Crowd
+12/26/16;Lucky Number Slevin;/title/70043948;movie;110;2006;R;07 Apr 2006;Crime, Drama, Mystery;Paul McGuigan;Josh Hartnett, Bruce Willis, Lucy Liu, Morgan Freeman;7.8;tt0425210;Lucky Number Slevin
+12/26/16;Night Owls;/title/80091636;movie;90;2015;R;13 Mar 2015;Comedy, Drama;Charles Hood;Adam Pally, Rosa Salazar, Rob Huebel, Tony Hale;6.2;tt3591436;Night Owls
+12/25/16;Hush;/title/80091879;movie;81;2016;R;08 Apr 2016;Horror, Thriller;Mike Flanagan;Kate Siegel, John Gallagher Jr., Michael Trucco, Samantha Sloyan;6.6;tt5022702;Hush
+12/22/16;Sarah & Duck: Season 2: "Lost Librarian / Scooter Stand Hill / Music Fixer";/title/80097061;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/21/16;Paranoid: Season 1: "Episode 8";/title/80123737;movie;93;2000;N/A;26 Oct 2000;Crime, Thriller;John Duigan;Jessica Alba, Iain Glen, Jeanne Tripplehorn, Ewen Bremner;3.9;tt0197750;Paranoid
+12/21/16;Paranoid: Season 1: "Episode 7";/title/80123736;movie;93;2000;N/A;26 Oct 2000;Crime, Thriller;John Duigan;Jessica Alba, Iain Glen, Jeanne Tripplehorn, Ewen Bremner;3.9;tt0197750;Paranoid
+12/21/16;Paranoid: Season 1: "Episode 6";/title/80123735;movie;93;2000;N/A;26 Oct 2000;Crime, Thriller;John Duigan;Jessica Alba, Iain Glen, Jeanne Tripplehorn, Ewen Bremner;3.9;tt0197750;Paranoid
+12/21/16;Sarah & Duck: Season 2: "Parasol Show / Extra Bounce / Cake Relocate";/title/80097060;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/20/16;Paranoid: Season 1: "Episode 5";/title/80123734;movie;93;2000;N/A;26 Oct 2000;Crime, Thriller;John Duigan;Jessica Alba, Iain Glen, Jeanne Tripplehorn, Ewen Bremner;3.9;tt0197750;Paranoid
+12/19/16;Paranoid: Season 1: "Episode 4";/title/80123733;movie;93;2000;N/A;26 Oct 2000;Crime, Thriller;John Duigan;Jessica Alba, Iain Glen, Jeanne Tripplehorn, Ewen Bremner;3.9;tt0197750;Paranoid
+12/19/16;Sarah & Duck: Season 2: "Rainbow's Niece / Decorating Donkey / Duck Hotel";/title/80097059;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/18/16;Paranoid: Season 1: "Episode 3";/title/80123732;movie;93;2000;N/A;26 Oct 2000;Crime, Thriller;John Duigan;Jessica Alba, Iain Glen, Jeanne Tripplehorn, Ewen Bremner;3.9;tt0197750;Paranoid
+12/18/16;Paranoid: Season 1: "Episode 2";/title/80123731;movie;93;2000;N/A;26 Oct 2000;Crime, Thriller;John Duigan;Jessica Alba, Iain Glen, Jeanne Tripplehorn, Ewen Bremner;3.9;tt0197750;Paranoid
+12/18/16;It's Always Sunny in Philadelphia: Season 10: "Ass Kickers United: Mac and Charlie Join a Cult";/title/80043923;series;22;2005–;TV-MA;04 Aug 2005;Comedy;N/A;Charlie Day, Glenn Howerton, Rob McElhenney, Kaitlin Olson;8.8;tt0472954;It's Always Sunny in Philadelphia
+12/18/16;Sarah & Duck: Season 2: "The Big Sleepover / Paisley Sea / Duck's Quack";/title/80097058;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/18/16;Sarah & Duck: Season 2: "Shallot Circus / Toy Tidy / Plate Escape";/title/80097057;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/18/16;Sarah & Duck: Season 2: "Garden Gaming / Seacow Snow Trail / Origami Overload";/title/80097056;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/18/16;Sarah & Duck: Season 1: "Woollen Music / Doubles / Fairground";/title/80017043;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/18/16;Sarah & Duck: Season 1: "Kite Flight / Umbrella and the Rain / Big Shop";/title/80017042;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/18/16;It's Always Sunny in Philadelphia: Season 10: "Frank Retires";/title/80043922;series;22;2005–;TV-MA;04 Aug 2005;Comedy;N/A;Charlie Day, Glenn Howerton, Rob McElhenney, Kaitlin Olson;8.8;tt0472954;It's Always Sunny in Philadelphia
+12/18/16;Sarah & Duck: Season 1: "Tapping Shoes / Bobsleigh / Fireworks Dance";/title/80017046;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/18/16;Sarah & Duck: Season 1: "Coloured Light / Strawberry Souffle / Camera";/title/80017045;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/17/16;Sarah & Duck: Season 2: "Pond Prose / The Art Of Pink/Bug Bop / Duck Flies";/title/80097065;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/17/16;Sarah & Duck: Season 2: "Toggle Tangle / Tummy Talk / Moon's Exhibition";/title/80097064;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/17/16;It's Always Sunny in Philadelphia: Season 10: "The Gang Goes on Family Fight";/title/80043921;series;22;2005–;TV-MA;04 Aug 2005;Comedy;N/A;Charlie Day, Glenn Howerton, Rob McElhenney, Kaitlin Olson;8.8;tt0472954;It's Always Sunny in Philadelphia
+12/17/16;It's Always Sunny in Philadelphia: Season 10: "Mac Kills His Dad";/title/80043920;series;22;2005–;TV-MA;04 Aug 2005;Comedy;N/A;Charlie Day, Glenn Howerton, Rob McElhenney, Kaitlin Olson;8.8;tt0472954;It's Always Sunny in Philadelphia
+12/16/16;It's Always Sunny in Philadelphia: Season 10: "The Gang Misses the Boat";/title/80043919;series;22;2005–;TV-MA;04 Aug 2005;Comedy;N/A;Charlie Day, Glenn Howerton, Rob McElhenney, Kaitlin Olson;8.8;tt0472954;It's Always Sunny in Philadelphia
+12/16/16;Spectral;/title/80098200;movie;N/A;2016;PG-13;09 Dec 2016;Action, Sci-Fi, Thriller;Nic Mathieu;Emily Mortimer, Clayne Crawford, Max Martini, James Badge Dale;7.7;tt2106651;Spectral
+12/16/16;It's Always Sunny in Philadelphia: Season 10: "The Gang Spies Like U.S.";/title/80043918;series;22;2005–;TV-MA;04 Aug 2005;Comedy;N/A;Charlie Day, Glenn Howerton, Rob McElhenney, Kaitlin Olson;8.8;tt0472954;It's Always Sunny in Philadelphia
+12/16/16;Paranoid: Season 1: "Episode 1";/title/80123730;movie;93;2000;N/A;26 Oct 2000;Crime, Thriller;John Duigan;Jessica Alba, Iain Glen, Jeanne Tripplehorn, Ewen Bremner;3.9;tt0197750;Paranoid
+12/15/16;American Dad!: Season 5: "Moon over Isla Island";/title/70176633;series;22;2005–;TV-14;N/A;Animation, Comedy;N/A;Seth MacFarlane, Wendy Schaal, Dee Bradley Baker, Scott Grimes;7.5;tt0397306;American Dad!
+12/15/16;American Dad!: Season 5: "In Country... Club";/title/70176632;series;22;2005–;TV-14;N/A;Animation, Comedy;N/A;Seth MacFarlane, Wendy Schaal, Dee Bradley Baker, Scott Grimes;7.5;tt0397306;American Dad!
+12/14/16;The IT Crowd: Series 3: "From Hell";/title/70124256;series;25;2006–2013;TV-14;03 Feb 2006;Comedy;N/A;Chris O'Dowd, Richard Ayoade, Katherine Parkinson, Matt Berry;8.6;tt0487831;The IT Crowd
+12/14/16;The IT Crowd: Series 2: "Men Without Women";/title/70120053;series;25;2006–2013;TV-14;03 Feb 2006;Comedy;N/A;Chris O'Dowd, Richard Ayoade, Katherine Parkinson, Matt Berry;8.6;tt0487831;The IT Crowd
+12/14/16;The IT Crowd: Series 2: "Smoke and Mirrors";/title/70120052;series;25;2006–2013;TV-14;03 Feb 2006;Comedy;N/A;Chris O'Dowd, Richard Ayoade, Katherine Parkinson, Matt Berry;8.6;tt0487831;The IT Crowd
+12/14/16;The IT Crowd: Series 2: "The Dinner Party";/title/70120051;series;25;2006–2013;TV-14;03 Feb 2006;Comedy;N/A;Chris O'Dowd, Richard Ayoade, Katherine Parkinson, Matt Berry;8.6;tt0487831;The IT Crowd
+12/14/16;American Dad!: Season 9: "Faking Bad";/title/80045452;series;22;2005–;TV-14;N/A;Animation, Comedy;N/A;Seth MacFarlane, Wendy Schaal, Dee Bradley Baker, Scott Grimes;7.5;tt0397306;American Dad!
+12/14/16;Sarah & Duck: Season 2: "Fast Slow Bungalow / Bags of Bags / Ribbon Fall";/title/80097055;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/14/16;Sarah & Duck: Season 2: "Sound Jumble / The Mouse's Birthday / Tortoise Snooze";/title/80097054;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/13/16;The IT Crowd: Series 2: "Moss and the German";/title/70120050;series;25;2006–2013;TV-14;03 Feb 2006;Comedy;N/A;Chris O'Dowd, Richard Ayoade, Katherine Parkinson, Matt Berry;8.6;tt0487831;The IT Crowd
+12/13/16;The IT Crowd: Series 2: "Return of the Golden Child";/title/70120049;series;25;2006–2013;TV-14;03 Feb 2006;Comedy;N/A;Chris O'Dowd, Richard Ayoade, Katherine Parkinson, Matt Berry;8.6;tt0487831;The IT Crowd
+12/13/16;The IT Crowd: Series 2: "The Work Outing";/title/70120048;series;25;2006–2013;TV-14;03 Feb 2006;Comedy;N/A;Chris O'Dowd, Richard Ayoade, Katherine Parkinson, Matt Berry;8.6;tt0487831;The IT Crowd
+12/13/16;American Dad!: Season 9: "Independent Movie";/title/80045451;series;22;2005–;TV-14;N/A;Animation, Comedy;N/A;Seth MacFarlane, Wendy Schaal, Dee Bradley Baker, Scott Grimes;7.5;tt0397306;American Dad!
+12/13/16;Mouk: Season 1: "Souq Surprise / Instruments Do Grow on Trees!";/title/80062966;series;N/A;2011–;N/A;19 Sep 2011;Animation;N/A;Tania Farchy, Rachel Williams, Lisa Jacobs, Gwenaelle Jegou;7.4;tt2129477;Mouk
+12/12/16;It's Always Sunny in Philadelphia: Season 10: "Charlie Work";/title/80043917;series;22;2005–;TV-MA;04 Aug 2005;Comedy;N/A;Charlie Day, Glenn Howerton, Rob McElhenney, Kaitlin Olson;8.8;tt0472954;It's Always Sunny in Philadelphia
+12/12/16;It's Always Sunny in Philadelphia: Season 10: "Psycho Pete Returns";/title/80043916;series;22;2005–;TV-MA;04 Aug 2005;Comedy;N/A;Charlie Day, Glenn Howerton, Rob McElhenney, Kaitlin Olson;8.8;tt0472954;It's Always Sunny in Philadelphia
+12/12/16;It's Always Sunny in Philadelphia: Season 10: "The Gang Group Dates";/title/80043915;series;22;2005–;TV-MA;04 Aug 2005;Comedy;N/A;Charlie Day, Glenn Howerton, Rob McElhenney, Kaitlin Olson;8.8;tt0472954;It's Always Sunny in Philadelphia
+12/12/16;Doctor Foster: Season 1: "Episode 5";/title/80096993;series;60;2015–;N/A;N/A;Drama;N/A;Suranne Jones, Bertie Carvel, Tom Taylor, Thusitha Jayasundera;7.9;tt4602768;Doctor Foster
+12/12/16;Sarah & Duck: Season 2: "Outside Outside / Umbrella Bubbles / Cloud Tower";/title/80097053;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/11/16;It's Always Sunny in Philadelphia: Season 10: "The Gang Beats Boggs";/title/80043914;series;22;2005–;TV-MA;04 Aug 2005;Comedy;N/A;Charlie Day, Glenn Howerton, Rob McElhenney, Kaitlin Olson;8.8;tt0472954;It's Always Sunny in Philadelphia
+12/11/16;Doctor Foster: Season 1: "Episode 4";/title/80096992;series;60;2015–;N/A;N/A;Drama;N/A;Suranne Jones, Bertie Carvel, Tom Taylor, Thusitha Jayasundera;7.9;tt4602768;Doctor Foster
+12/11/16;Mouk: Season 1: "Rickshaw / Christmas in the Sun";/title/80062965;series;N/A;2011–;N/A;19 Sep 2011;Animation;N/A;Tania Farchy, Rachel Williams, Lisa Jacobs, Gwenaelle Jegou;7.4;tt2129477;Mouk
+12/11/16;Sarah & Duck: Season 1: "Bug's Button Bank / No More Wool / Octagon Club / Petal Light Picking";/title/80017128;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/11/16;Sarah & Duck: Season 1: "World Bread Day / Pond Princess / Scared of Stairs";/title/80017048;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/10/16;Doctor Foster: Season 1: "Episode 3";/title/80096991;series;60;2015–;N/A;N/A;Drama;N/A;Suranne Jones, Bertie Carvel, Tom Taylor, Thusitha Jayasundera;7.9;tt4602768;Doctor Foster
+12/10/16;Sarah & Duck: Season 1: "Fancy Park / Pipe Conductor / Slow Quest";/title/80017047;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/9/16;Doctor Foster: Season 1: "Episode 2";/title/80096990;series;60;2015–;N/A;N/A;Drama;N/A;Suranne Jones, Bertie Carvel, Tom Taylor, Thusitha Jayasundera;7.9;tt4602768;Doctor Foster
+12/9/16;Doctor Foster: Season 1: "Episode 1";/title/80096989;series;60;2015–;N/A;N/A;Drama;N/A;Suranne Jones, Bertie Carvel, Tom Taylor, Thusitha Jayasundera;7.9;tt4602768;Doctor Foster
+12/9/16;Mouk: Season 1: "Puppet Masters / Bossa Nova";/title/80062964;series;N/A;2011–;N/A;19 Sep 2011;Animation;N/A;Tania Farchy, Rachel Williams, Lisa Jacobs, Gwenaelle Jegou;7.4;tt2129477;Mouk
+12/9/16;Sarah & Duck: Season 1: "Sarah Gets a Cold / Ribbon Sisters / Stargazing";/title/80017044;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/8/16;Get the Gringo;/title/70235479;movie;96;2012;R;15 Mar 2012;Action, Crime, Drama;Adrian Grunberg;Mel Gibson, Kevin Hernandez, Daniel Giménez Cacho, Jesús Ochoa;7.0;tt1567609;Get the Gringo
+12/8/16;Sarah & Duck: Season 1: "Bouncy Ball / Rainbow Lemon / Sit Shop";/title/80017041;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/7/16;How I Met Your Mother: Season 1: "Zip, Zip, Zip";/title/70218494;series;22;2005–2014;TV-14;19 Sep 2005;Comedy, Romance;N/A;Josh Radnor, Jason Segel, Cobie Smulders, Neil Patrick Harris;8.4;tt0460649;How I Met Your Mother
+12/7/16;Sarah & Duck: Season 1: "Cake Bake / Scarf Lady's House /  Robot Juice";/title/80017040;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/7/16;Sarah & Duck: Season 1: "Lots of Shallots / Sarah, Duck and the Penguins / Cheer Up Donkey";/title/80017039;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/6/16;Glitch: Season 1: "There Must Be Rules";/title/80108806;series;45;2015–;N/A;09 Jul 2015;Drama;N/A;Patrick Brammall, Genevieve O'Reilly, Emma Booth, Emily Barclay;7.7;tt4192782;Glitch
+12/5/16;Glitch: Season 1: "The Impossible Triangle";/title/80108805;series;45;2015–;N/A;09 Jul 2015;Drama;N/A;Patrick Brammall, Genevieve O'Reilly, Emma Booth, Emily Barclay;7.7;tt4192782;Glitch
+12/5/16;Glitch: Season 1: "There Is No Justice";/title/80108804;series;45;2015–;N/A;09 Jul 2015;Drama;N/A;Patrick Brammall, Genevieve O'Reilly, Emma Booth, Emily Barclay;7.7;tt4192782;Glitch
+12/5/16;Sarah & Duck: Season 2: "Woolly Memories / Beach Break / Bubble Bumbling";/title/80097063;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/5/16;Sarah & Duck: Season 2: "Wool On Wheels / Lemon Cafe / Star Renovation";/title/80097062;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/4/16;Glitch: Season 1: "Miracle or Punishment";/title/80108803;series;45;2015–;N/A;09 Jul 2015;Drama;N/A;Patrick Brammall, Genevieve O'Reilly, Emma Booth, Emily Barclay;7.7;tt4192782;Glitch
+12/4/16;Glitch: Season 1: "Am I in Hell?";/title/80108802;series;45;2015–;N/A;09 Jul 2015;Drama;N/A;Patrick Brammall, Genevieve O'Reilly, Emma Booth, Emily Barclay;7.7;tt4192782;Glitch
+12/4/16;Glitch: Season 1: "The Risen";/title/80108801;series;45;2015–;N/A;09 Jul 2015;Drama;N/A;Patrick Brammall, Genevieve O'Reilly, Emma Booth, Emily Barclay;7.7;tt4192782;Glitch
+12/3/16;American Dad!: Season 9: "Kung Pao Turkey";/title/80045450;series;22;2005–;TV-14;N/A;Animation, Comedy;N/A;Seth MacFarlane, Wendy Schaal, Dee Bradley Baker, Scott Grimes;7.5;tt0397306;American Dad!
+12/3/16;Sarah & Duck: Season 1: "Moon Paint / The Play / Bread Bike";/title/80017127;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/3/16;Sarah & Duck: Season 1: "Balloon Race / Puncture Pump / Plate Fog";/title/80017049;movie;25;1981;N/A;N/A;Short;Spike Lee;N/A;2.7;tt0209300;Sarah & Duck
+12/2/16;Primer;/title/60034782;movie;77;2004;PG-13;27 May 2005;Drama, Sci-Fi, Thriller;Shane Carruth;Shane Carruth, David Sullivan, Casey Gooden, Anand Upadhyaya;7.0;tt0390384;Primer
+12/2/16;American Dad!: Season 9: "Crotchwalkers";/title/80045449;series;22;2005–;TV-14;N/A;Animation, Comedy;N/A;Seth MacFarlane, Wendy Schaal, Dee Bradley Baker, Scott Grimes;7.5;tt0397306;American Dad!
+12/2/16;American Dad!: Season 9: "Buck, Wild";/title/80045448;series;22;2005–;TV-14;N/A;Animation, Comedy;N/A;Seth MacFarlane, Wendy Schaal, Dee Bradley Baker, Scott Grimes;7.5;tt0397306;American Dad!
+12/1/16;American Dad!: Season 9: "Poltergasm";/title/80045447;series;22;2005–;TV-14;N/A;Animation, Comedy;N/A;Seth MacFarlane, Wendy Schaal, Dee Bradley Baker, Scott Grimes;7.5;tt0397306;American Dad!
