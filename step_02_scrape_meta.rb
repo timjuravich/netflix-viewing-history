@@ -3,49 +3,14 @@ require 'date'
 require 'net/http'
 require 'json'
 require 'uri'
+require './lib/utils.rb'
 
 # Config
 METADATA_OUTPUT      = File.dirname(__FILE__) + "/output/metadata-output.txt"
 NETFLIX_RAW_OUTPUT   = File.dirname(__FILE__) + "/output/netflix-history-raw.txt"
 SLEEP_TIME           = 2
 
-def get_movie_meta(data)
-  title = URI.escape(data[:title].split(":").first)
-  uri = URI("http://www.omdbapi.com/?t=#{title}&y=&plot=short&r=json")
-  response = Net::HTTP.get(uri)
-  json = JSON.parse(response, :symbolize_names => true)
-
-  if json[:Response] == "True"
-    { :year         => json[:Year],
-      :rated        => json[:Rated],
-      :released     => json[:Released],
-      :runtime      => json[:Runtime].chomp(" min"),
-      :genre        => json[:Genre],
-      :director     => json[:Director],
-      :actors       => json[:Actors],
-      :rating       => json[:imdbRating],
-      :type         => json[:Type],
-      :series_title => data[:title].split(":").first,
-      :imdb_id      => json[:imdbID],
-      :triage       => "false"
-    }
-  else
-    { :triage       => "true" }
-  end
-end
-
-def get_raw_data()
-  raw_data = []
-  File.open(NETFLIX_RAW_OUTPUT, "r").each_with_index do |line, index|
-    next if index == 0
-    row = line.chomp("\n")
-    data = row.split(/\;/)
-    raw_data.push({ :raw => row, :title => data[1],:url => "https://www.netflix.com#{data[2]}" })
-  end
-  raw_data
-end
-
-raw_data = get_raw_data()
+raw_data = Utils::load_raw_data()
 series_data = []
 existing_series = []
 
@@ -66,7 +31,7 @@ raw_data.each_with_index do |row, index|
   else
     # it doesnt exist, go get it
     puts "Cache Miss: Get new data"
-    scraped_data = get_movie_meta(row)
+    scraped_data = Utils::get_movie_meta(row)
 
     # put the data into a series data array for future use
     series_data << scraped_data
