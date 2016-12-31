@@ -24,6 +24,7 @@ existing_series = []
 
 triage_list.each_with_index do |row, index|
   puts row
+
   # Utils::get_movie_meta(row)
 
   # Marvel's Daredevil = Daredevil
