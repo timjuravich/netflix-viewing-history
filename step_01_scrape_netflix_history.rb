@@ -7,10 +7,8 @@ require './lib/utils.rb'
 # Config
 NETFLIX_LIST_URL     = 'https://www.netflix.com/WiViewingActivity?'
 PAGE_LOAD_WAIT       = 2
-START_TIME           = Date.parse('2009-09-06') # When I started using netflix
-
-# Character encoding converter instance used to force all HTML output into UTF-8 format
-ICONV           = Iconv.new('UTF-8//IGNORE', 'UTF-8')
+LAST_SCRAPED_DATE    = Utils::get_last_scraped_date
+ICONV                = Iconv.new('UTF-8//IGNORE', 'UTF-8')
 
 def get_netflix_info(html)
   watch_array = []
@@ -21,6 +19,7 @@ def get_netflix_info(html)
    url=row.xpath('.//div[@class="col title"]//a/@href')
    str="#{date};#{title};#{url}"
    puts str
+   break if date <= LAST_SCRAPED_DATE.strftime("%m/%d/%y")
    watch_array << str
   end
   watch_array
@@ -33,7 +32,7 @@ def get_netflix_list_html(url)
       activate
       set url of document 1 to "#{url}"
       delay #{PAGE_LOAD_WAIT}
-      repeat 4 times
+      repeat 10 times
         tell application "System Events" to key code 125 using option down
         delay .2
       end repeat
@@ -47,13 +46,10 @@ def get_netflix_list_html(url)
   ICONV.iconv(`osascript -e '#{applescript}' && pbpaste` + ' ')[0..-2]
 end
 
-# If file doesn't exist, scrape and write it
-if !File.exist?(NETFLIX_RAW_OUTPUT)
-  netflix_watch_array = get_netflix_info(get_netflix_list_html(NETFLIX_LIST_URL))
-  # Write out netflix values
-  File.open(NETFLIX_RAW_OUTPUT, "w") do |file|
-    netflix_watch_array.each do |line|
-     file.puts "#{line}"
-    end
+netflix_watch_array = get_netflix_info(get_netflix_list_html(NETFLIX_LIST_URL))
+# Write out netflix values
+File.open(NETFLIX_RAW_OUTPUT, "w") do |file|
+  netflix_watch_array.each do |line|
+   file.puts "#{line}"
   end
 end
