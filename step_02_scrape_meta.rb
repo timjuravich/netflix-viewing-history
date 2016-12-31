@@ -42,17 +42,18 @@ raw_data.each_with_index do |row, index|
   end
 end
 
-if File.exist?(METADATA_OUTPUT)
-  File.open(METADATA_OUTPUT, "a") do |file|
-    raw_data.each do |row|
-     file.puts "#{row[:raw]};Netflix;#{row[:type]};#{row[:runtime]};#{row[:year]};#{row[:rated]};#{row[:released]};#{row[:genre]};#{row[:director]};#{row[:actors]};#{row[:rating]};#{row[:imdb_id]};#{row[:series_title]};#{row[:triage]}"
-    end
-  end
-else
-  File.open(METADATA_OUTPUT, "w") do |file|
+write_method = "a"
+
+if !File.exist?(METADATA_OUTPUT)
+  write_method = "w"
+end
+
+File.open(METADATA_OUTPUT, write_method) do |file|
+  if !File.exist?(METADATA_OUTPUT)
     file.puts "Date;Title;URL;Source;Type;Runtime;Year;Rated;Released;Genre;Director;Actors;Rating;IMDB ID;Series Title;Triage"
-    raw_data.each do |row|
-     file.puts "#{row[:raw]};Netflix;#{row[:type]};#{row[:runtime]};#{row[:year]};#{row[:rated]};#{row[:released]};#{row[:genre]};#{row[:director]};#{row[:actors]};#{row[:rating]};#{row[:imdb_id]};#{row[:series_title]};#{row[:triage]}"
-    end
+  end
+
+  raw_data.each do |row|
+   file.puts "#{row[:raw]};Netflix;#{row[:type]};#{row[:runtime]};#{row[:year]};#{row[:rated]};#{row[:released]};#{row[:genre]};#{row[:director]};#{row[:actors]};#{row[:rating]};#{row[:imdb_id]};#{row[:series_title]};#{row[:triage]}"
   end
 end
