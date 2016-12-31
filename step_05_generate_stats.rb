@@ -8,7 +8,7 @@ require './lib/utils.rb'
 # Config
 METADATA_OUTPUT      = File.dirname(__FILE__) + "/output/metadata-output.txt"
 
-stats_dataset = load_metadata()
+stats_dataset = Utils::load_metadata()
 
 # Total items watched
 total_items_watched = stats_dataset.size
@@ -23,11 +23,12 @@ days_watching = hours_watching / 24
 # Firsts
 first_day = stats_dataset.sort_by { |row| row[:date] }.first[:date]
 last_day = stats_dataset.sort_by { |row| row[:date] }.last[:date]
-days_on_netflix = (Date.parse(last_day) - Date.parse(first_day)).to_i
+days_on_netflix = (last_day - first_day).to_i
 total_potential_hours = days_on_netflix * 24
 watch_hour_percentage = (hours_watching.to_f / total_potential_hours.to_f) * 100.0
 
 puts "date of first item watch: #{first_day}"
+puts "date of last item watch: #{last_day}"
 puts "days on netflix: #{days_on_netflix}"
 puts "total potential hours: #{total_potential_hours}"
 puts "minutes watching: #{minutes_watching}"

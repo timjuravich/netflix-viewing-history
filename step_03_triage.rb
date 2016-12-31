@@ -31,6 +31,7 @@ triage_list.each_with_index do |row, index|
 
   # Marvel's Daredevil = Daredevil
   # The Last 5 Years = The Last Five Years
+  # Friday Night Lights should be TV show
 
   # potential_series_title = row[:title].split(":").first
   #

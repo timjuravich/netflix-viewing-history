@@ -3,12 +3,13 @@ require 'date'
 require 'net/http'
 require 'json'
 require 'uri'
+require 'date'
 
 class Utils
 
   def self.hash_from_string(data)
     {
-      :date         => data[0],
+      :date         => Date.strptime(data[0], '%m/%d/%y'),
       :title        => data[1],
       :url          => data[2],
       :source       => data[3],
