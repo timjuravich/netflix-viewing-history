@@ -6,8 +6,6 @@ require 'uri'
 require './lib/utils.rb'
 
 # Config
-METADATA_OUTPUT      = File.dirname(__FILE__) + "/output/metadata-output.txt"
-NETFLIX_RAW_OUTPUT   = File.dirname(__FILE__) + "/output/netflix-history-raw.txt"
 SLEEP_TIME           = 2
 
 raw_data = Utils::load_raw_data()

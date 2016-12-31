@@ -5,9 +5,6 @@ require 'json'
 require 'uri'
 require './lib/utils.rb'
 
-# Config
-METADATA_OUTPUT      = File.dirname(__FILE__) + "/output/metadata-output.txt"
-
 def get_records_needing_triage()
   triage_list = []
   File.open(METADATA_OUTPUT, "r").each_with_index do |line, index|

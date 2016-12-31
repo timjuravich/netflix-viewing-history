@@ -2,12 +2,12 @@
 require 'iconv'
 require 'nokogiri'
 require 'date'
+require './lib/utils.rb'
 
 # Config
 NETFLIX_LIST_URL     = 'https://www.netflix.com/WiViewingActivity?'
 PAGE_LOAD_WAIT       = 2
 START_TIME           = Date.parse('2009-09-06') # When I started using netflix
-NETFLIX_RAW_OUTPUT   = File.dirname(__FILE__) + "/output/netflix-history-raw.txt"
 
 # Character encoding converter instance used to force all HTML output into UTF-8 format
 ICONV           = Iconv.new('UTF-8//IGNORE', 'UTF-8')

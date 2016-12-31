@@ -6,10 +6,6 @@ require 'uri'
 require './lib/utils.rb'
 require 'Date'
 
-# Config
-METADATA_OUTPUT      = File.dirname(__FILE__) + "/output/metadata-output.txt"
-TIMESERIES_OUTPUT    = File.dirname(__FILE__) + "/output/timeseries-output.txt"
-
 metadata = Utils::load_metadata()
 first_day = metadata.sort_by { |row| row[:date] }.first[:date]
 last_day = metadata.sort_by { |row| row[:date] }.last[:date]

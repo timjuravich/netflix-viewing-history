@@ -5,9 +5,18 @@ require 'json'
 require 'uri'
 require 'date'
 
+NETFLIX_RAW_OUTPUT   = File.dirname(__FILE__) + "/../output/netflix-history-raw.txt"
+METADATA_OUTPUT      = File.dirname(__FILE__) + "/../output/metadata-output.txt"
+TIMESERIES_OUTPUT    = File.dirname(__FILE__) + "/../output/timeseries-output.txt"
+
 class Utils
 
-  def self.hash_from_string(data)
+  def self.get_last_scraped_date
+    metadata = load_metadata
+    metadata.last[:date]
+  end
+
+  def self.meta_hash_from_string(data)
     {
       :date         => Date.strptime(data[0], '%m/%d/%y'),
       :title        => data[1],
@@ -34,7 +43,7 @@ class Utils
       next if index == 0
       row = line.chomp("\n")
       data = row.split(/\;/)
-      dataset.push(Utils::hash_from_string(data))
+      dataset.push(Utils::meta_hash_from_string(data))
     end
     dataset
   end

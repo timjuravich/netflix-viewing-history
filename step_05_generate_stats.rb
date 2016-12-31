@@ -5,9 +5,6 @@ require 'json'
 require 'uri'
 require './lib/utils.rb'
 
-# Config
-METADATA_OUTPUT      = File.dirname(__FILE__) + "/output/metadata-output.txt"
-
 stats_dataset = Utils::load_metadata()
 
 # Total items watched
