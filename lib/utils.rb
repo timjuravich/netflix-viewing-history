@@ -5,9 +5,9 @@ require 'json'
 require 'uri'
 require 'date'
 
-NETFLIX_RAW_OUTPUT   = File.dirname(__FILE__) + "/../output/netflix-history-raw.txt"
-METADATA_OUTPUT      = File.dirname(__FILE__) + "/../output/metadata-output.txt"
-TIMESERIES_OUTPUT    = File.dirname(__FILE__) + "/../output/timeseries-output.txt"
+NETFLIX_RAW_OUTPUT        = File.dirname(__FILE__) + "/../output/netflix-history-raw.txt"
+METADATA_OUTPUT           = File.dirname(__FILE__) + "/../output/metadata-output.txt"
+DAILY_TIMESERIES_OUTPUT   = File.dirname(__FILE__) + "/../output/daily-timeseries-output.txt"
 
 class Utils
 
@@ -33,7 +33,8 @@ class Utils
       :rating       => data[12],
       :imdb_id      => data[13],
       :series_title => data[14],
-      :triage       => data[15]
+      :triage       => data[15],
+      :week         => Date.strptime(data[0], '%W'),
     }
   end
 
