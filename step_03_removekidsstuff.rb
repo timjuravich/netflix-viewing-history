@@ -5,7 +5,7 @@ require 'json'
 require 'uri'
 require './lib/utils.rb'
 
-blacklist = ['Mouk']
+blacklist = ['Mouk', 'Sofia the First']
 clean_data = []
 
 File.open(METADATA_OUTPUT, "r").each_with_index do |line, index|
