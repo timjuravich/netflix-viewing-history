@@ -29,10 +29,6 @@ first_day.upto(last_day) do |date|
   })
 end
 
-metadata.group_by(&:week).each do |week, watches|
-  puts "#{week} - #{watches}"
-end
-
 puts daily_time_series
 
 # Rewrite the file including the new meta informatio

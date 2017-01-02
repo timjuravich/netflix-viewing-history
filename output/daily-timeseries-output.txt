@@ -2672,3 +2672,4 @@ Date;Minutes Watched;Hours Watched;Total Watch Count;Series Watch Count;Movie Wa
 2016-12-28;267;4.45;6;3;3;
 2016-12-29;444;7.4;2;1;1;
 2016-12-30;163;2.72;3;1;2;
+2016-12-31;443;7.38;6;2;4;

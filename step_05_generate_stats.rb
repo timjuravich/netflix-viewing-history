@@ -11,6 +11,8 @@ stats_dataset = Utils::load_metadata()
 total_items_watched = stats_dataset.size
 total_movies_watched = stats_dataset.select {|row| row[:type] == "movie" }.size
 total_shows_watched = stats_dataset.select {|row| row[:type] == "series" }.size
+total_series_watched = stats_dataset.uniq! {|row| row[:series_title] }.size - total_movies_watched
+
 
 # Get watch times
 minutes_watching = stats_dataset.map {|row| row[:runtime].to_i}.reduce(0, :+)
@@ -24,6 +26,31 @@ days_on_netflix = (last_day - first_day).to_i
 total_potential_hours = days_on_netflix * 24
 watch_hour_percentage = (hours_watching.to_f / total_potential_hours.to_f) * 100.0
 
+# Weekly Averages
+  # Sunday: average watch times
+  # Monday: average watch times
+  # Tuesday: average watch times
+  # Wednesday: average watch times
+  # Thursday: average watch times
+  # Friday: average watch times
+  # Saturday: average watch times
+
+  # Sunday: total watch times
+  # Monday: total watch times
+  # Tuesday: total watch times
+  # Wednesday: total watch times
+  # Thursday: total watch times
+  # Friday: total watch times
+  # Saturday: total watch times
+
+  # Sunday: % of total
+  # Monday: % of total
+  # Tuesday: % of total
+  # Wednesday: % of total
+  # Thursday: % of total
+  # Friday: % of total
+  # Saturday: % of total
+
 puts "date of first item watch: #{first_day}"
 puts "date of last item watch: #{last_day}"
 puts "days on netflix: #{days_on_netflix}"
@@ -35,4 +62,5 @@ puts "percentage of all time watching netflix: #{watch_hour_percentage}"
 puts "number of total things: #{total_items_watched}"
 puts "total movies watched: #{total_movies_watched}"
 puts "total tv shows watched: #{total_shows_watched}"
+puts "total series watched: #{total_series_watched}"
 puts "items needing triage: #{stats_dataset.select {|row| row[:triage] == "true" }.size}"

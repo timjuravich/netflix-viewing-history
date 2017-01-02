@@ -18,6 +18,7 @@ class Utils
 
   def self.meta_hash_from_string(data)
     {
+      :raw          => "#{data[0]};#{data[1]};#{data[2]};",
       :date         => Date.strptime(data[0], '%m/%d/%y'),
       :title        => data[1],
       :url          => data[2],
@@ -52,7 +53,6 @@ class Utils
   def self.load_raw_data()
     raw_data = []
     File.open(NETFLIX_RAW_OUTPUT, "r").each_with_index do |line, index|
-      next if index == 0
       row = line.chomp("\n")
       data = row.split(/\;/)
       raw_data.push({ :raw => row, :title => data[1],:url => "https://www.netflix.com#{data[2]}" })

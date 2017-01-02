@@ -18,7 +18,7 @@ def get_netflix_info(html)
    title=row.xpath('.//div[@class="col title"]').text.strip
    url=row.xpath('.//div[@class="col title"]//a/@href')
    str="#{date};#{title};#{url}"
-   break if date <= LAST_SCRAPED_DATE.strftime("%m/%d/%y")
+   break if Date.strptime(date, "%m/%d/%y") <= LAST_SCRAPED_DATE
    puts str
    watch_array << str
   end
