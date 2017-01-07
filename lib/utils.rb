@@ -8,6 +8,7 @@ require 'date'
 NETFLIX_RAW_OUTPUT        = File.dirname(__FILE__) + "/../output/netflix-history-raw.txt"
 METADATA_OUTPUT           = File.dirname(__FILE__) + "/../output/metadata-output.txt"
 DAILY_TIMESERIES_OUTPUT   = File.dirname(__FILE__) + "/../output/daily-timeseries-output.txt"
+METRICS_OUTPUT            = File.dirname(__FILE__) + "/../output/metrics.csv"
 
 class Utils
 
@@ -18,7 +19,6 @@ class Utils
 
   def self.meta_hash_from_string(data)
     {
-      :raw          => "#{data[0]};#{data[1]};#{data[2]};",
       :date         => Date.strptime(data[0], '%m/%d/%y'),
       :title        => data[1],
       :url          => data[2],
