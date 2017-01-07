@@ -1,14 +1,10 @@
-1/5/17;How I Met Your Mother: Season 1: "Cupcake";/title/70218496
-1/5/17;How I Met Your Mother: Season 1: "Game Night";/title/70218495
-1/5/17;How I Met Your Mother: Season 1: "Zip, Zip, Zip";/title/70218494
-1/5/17;Futurama: Season 10: "2-D Blacktop";/title/70295193
-1/5/17;Sarah & Duck: Season 2: "Garden Gaming / Seacow Snow Trail / Origami Overload";/title/80097056
-1/4/17;It's Always Sunny in Philadelphia: Season 11: "The Gang Goes to Hell: Part Two";/title/80101455
-1/4/17;Sarah & Duck: Season 2: "Fast Slow Bungalow / Bags of Bags / Ribbon Fall";/title/80097055
-1/4/17;It's Always Sunny in Philadelphia: Season 11: "The Gang Goes to Hell";/title/80101454
-1/4/17;It's Always Sunny in Philadelphia: Season 11: "Mac & Dennis Move to the Suburbs";/title/80101450
-1/4/17;It's Always Sunny in Philadelphia: Season 11: "Dee Made a Smut Film";/title/80101449
-1/4/17;It's Always Sunny in Philadelphia: Season 11: "The Gang Hits the Slopes";/title/80101448
-1/3/17;It's Always Sunny in Philadelphia: Season 11: "Frank Falls Out the Window";/title/80101447
-1/3/17;It's Always Sunny in Philadelphia: Season 11: "Chardee MacDennis 2: Electric Boogaloo";/title/80101446
-1/3/17;Sarah & Duck: Season 2: "Sound Jumble / The Mouse's Birthday / Tortoise Snooze";/title/80097054
+1/6/17;Halt and Catch Fire: Season 1: "High Plains Hardware";/title/70307889
+1/6/17;Halt and Catch Fire: Season 1: "FUD";/title/70307888
+1/6/17;How I Met Your Mother: Season 1: "Mary the Paralegal";/title/70218499
+1/6/17;How I Met Your Mother: Season 1: "Nothing Good Happens After 2 A.M.";/title/70218498
+1/6/17;The True Cost;/title/80045667
+1/6/17;Halt and Catch Fire: Season 1: "I/O";/title/70307887
+1/6/17;Occupied: Season 1: "April";/title/80092722
+1/6/17;Sarah & Duck: Season 2: "Parasol Show / Extra Bounce / Cake Relocate";/title/80097060
+1/6/17;Sarah & Duck: Season 2: "Rainbow's Niece / Decorating Donkey / Duck Hotel";/title/80097059
+1/6/17;Sarah & Duck: Season 2: "The Big Sleepover / Paisley Sea / Duck's Quack";/title/80097058
