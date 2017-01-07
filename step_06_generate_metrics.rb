@@ -41,6 +41,44 @@ add_metric(metrics, "Percentage Of All Time", ((minutes_watched / 60).to_f / hou
 # Assumes the average person sleeps 8 hours at night and works 8 hours at day
 add_metric(metrics, "Percentage Of A Normal Sleepers Time", ((minutes_watched / 60).to_f / (days_on_netflix * 8).to_f) * 100.0)
 
+
+first_day = stats_dataset.sort_by { |row| row[:date] }.first[:date]
+last_day = stats_dataset.sort_by { |row| row[:date] }.last[:date]
+
+daily_time_series = []
+
+max_streak = { :start => nil, :end => nil, :streak => 0 }
+current_streak = nil
+
+# Daily Time Series
+first_day.upto(last_day) do |date|
+  puts date.to_s
+  watches_on_date = stats_dataset.select {|row| row[:date] == date }
+  minutes_watched = watches_on_date.map {|row| row[:runtime].to_i}.reduce(0, :+)
+
+  if minutes_watched > 0
+    if current_streak.nil?
+      puts "- start streak"
+      current_streak = { :start => date }
+    end
+  else
+    if !current_streak.nil?
+      puts "--- end streak"
+      # get the length
+      streak_length = (date - current_streak[:start]).to_i
+
+      if streak_length > max_streak[:streak]
+        puts "------- new record: #{streak_length}"
+        max_streak = { :start => current_streak[:start], :end => date, :streak => streak_length}
+      end
+
+      current_streak = nil
+    end
+  end
+end
+
+add_metric(max_streak, "Highest Streak Of Days In A Row", max_streak)
+
 # Weekly Averages
   # Sunday: average watch times
   # Monday: average watch times
