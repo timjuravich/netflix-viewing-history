@@ -19,7 +19,7 @@ class Utils
 
   def self.meta_hash_from_string(data)
     {
-      :date         => Date.strptime(data[0], '%m/%d/%y'),
+      :date         => Date.strptime(data[0], '%m/%d/%Y'),
       :title        => data[1],
       :url          => data[2],
       :source       => data[3],
