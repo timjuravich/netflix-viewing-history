@@ -14,7 +14,7 @@ existing_series = []
 
 raw_data.each_with_index do |row, index|
   puts " "
-  puts "-"
+  puts "---------------"
 
   potential_series_title = row[:title].split(":").first
 
