@@ -52,24 +52,26 @@ current_streak = nil
 
 # Daily Time Series
 first_day.upto(last_day) do |date|
-  puts date.to_s
   watches_on_date = stats_dataset.select {|row| row[:date] == date }
-  minutes_watched = watches_on_date.map {|row| row[:runtime].to_i}.reduce(0, :+)
 
-  if minutes_watched > 0
+  if watches_on_date.size > 0
     if current_streak.nil?
-      puts "- start streak"
+      # puts "start streak: #{date.to_s}"
       current_streak = { :start => date }
+    else
+      # puts "streak: #{date.to_s}"
     end
   else
     if !current_streak.nil?
-      puts "--- end streak"
+      # puts "--- end streak"
       # get the length
       streak_length = (date - current_streak[:start]).to_i
 
       if streak_length > max_streak[:streak]
-        puts "------- new record: #{streak_length}"
+        # puts "------- new record: #{streak_length}"
         max_streak = { :start => current_streak[:start], :end => date, :streak => streak_length}
+      else
+        # puts "-- not record: #{streak_length}"
       end
 
       current_streak = nil
@@ -77,7 +79,9 @@ first_day.upto(last_day) do |date|
   end
 end
 
-add_metric(max_streak, "Highest Streak Of Days In A Row", max_streak)
+add_metric(metrics, "Streak Start", max_streak[:start])
+add_metric(metrics, "Streak End", max_streak[:end])
+add_metric(metrics, "Highest Streak Of Days In A Row", max_streak[:streak])
 
 # Weekly Averages
   # Sunday: average watch times

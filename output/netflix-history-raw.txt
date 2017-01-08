@@ -1,10 +1,15 @@
-1/6/17;Halt and Catch Fire: Season 1: "High Plains Hardware";/title/70307889
-1/6/17;Halt and Catch Fire: Season 1: "FUD";/title/70307888
-1/6/17;How I Met Your Mother: Season 1: "Mary the Paralegal";/title/70218499
-1/6/17;How I Met Your Mother: Season 1: "Nothing Good Happens After 2 A.M.";/title/70218498
-1/6/17;The True Cost;/title/80045667
-1/6/17;Halt and Catch Fire: Season 1: "I/O";/title/70307887
-1/6/17;Occupied: Season 1: "April";/title/80092722
-1/6/17;Sarah & Duck: Season 2: "Parasol Show / Extra Bounce / Cake Relocate";/title/80097060
-1/6/17;Sarah & Duck: Season 2: "Rainbow's Niece / Decorating Donkey / Duck Hotel";/title/80097059
-1/6/17;Sarah & Duck: Season 2: "The Big Sleepover / Paisley Sea / Duck's Quack";/title/80097058
+01/07/2017;Super Why!: Season 1: "Attack of the Eraser: The Comic Book: Attack of the Eraser";/title/70142478
+01/07/2017;Halt and Catch Fire: Season 1: "Close to the Metal";/title/70307890
+01/07/2017;Sofia the First: Season 1: "The Floating Palace: Pt. 2";/title/70291197
+01/07/2017;Super Why!: Season 1: "Rapunzel and Other Stories: Tom Thumb";/title/70134376
+01/07/2017;Super Why!: Season 1: "Rapunzel and Other Stories: Rapunzel";/title/70134375
+01/07/2017;Halt and Catch Fire: Season 1: "The 214s";/title/70307894
+01/07/2017;Clifford's Puppy Days: Season 1: "The Monster in 3-B / Cat-tastrophe";/title/70297715
+01/07/2017;Clifford's Puppy Days: Season 1: "Socks and Snooze / Keeping Cool";/title/70297714
+01/07/2017;Halt and Catch Fire: Season 1: "Giant";/title/70307893
+01/07/2017;Halt and Catch Fire: Season 1: "Landfall";/title/70307892
+01/07/2017;Halt and Catch Fire: Season 1: "Adventure";/title/70307891
+01/07/2017;Sarah & Duck: Season 1: "Bouncy Ball / Rainbow Lemon / Sit Shop";/title/80017041
+01/07/2017;Sarah & Duck: Season 1: "Cake Bake / Scarf Lady's House /  Robot Juice";/title/80017040
+01/07/2017;Sarah & Duck: Season 1: "Lots of Shallots / Sarah, Duck and the Penguins / Cheer Up Donkey";/title/80017039
+01/07/2017;Sarah & Duck: Season 2: "Pond Prose / The Art Of Pink/Bug Bop / Duck Flies";/title/80097065
