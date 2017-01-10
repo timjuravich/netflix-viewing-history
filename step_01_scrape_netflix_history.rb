@@ -20,7 +20,7 @@ def get_netflix_info(html)
    break if Date.strptime(date, "%m/%d/%y") <= LAST_SCRAPED_DATE
    date = Date.strptime(date, '%m/%d/%y').strftime("%m/%d/%Y")
    str="#{date};#{title};#{url}"
-   puts str
+   puts str.colorize(:light_blue)
    watch_array << str
   end
   watch_array

@@ -9,7 +9,7 @@ stats_dataset = Utils::load_metadata()
 metrics = []
 
 def add_metric(metrics, metric, value)
-  puts "#{metric}: #{value}"
+  puts "#{metric}: #{value}".colorize(:light_blue)
   metrics.push({:metric => metric, :value => value})
 end
 

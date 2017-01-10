@@ -4,6 +4,7 @@ require 'net/http'
 require 'json'
 require 'uri'
 require 'date'
+require 'colorize'
 
 NETFLIX_RAW_OUTPUT        = File.dirname(__FILE__) + "/../output/netflix-history-raw.txt"
 METADATA_OUTPUT           = File.dirname(__FILE__) + "/../output/metadata-output.txt"

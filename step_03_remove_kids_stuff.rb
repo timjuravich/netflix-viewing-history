@@ -14,7 +14,8 @@ File.open(METADATA_OUTPUT, "r").each_with_index do |line, index|
   if !blacklist.include?(data[14])
     clean_data.push(row)
   else
-    puts "Remove: #{row}"
+    puts "Remove: #{row}".red
+    puts ""
   end
 end
 

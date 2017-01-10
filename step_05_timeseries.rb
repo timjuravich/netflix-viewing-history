@@ -29,7 +29,7 @@ first_day.upto(last_day) do |date|
   })
 end
 
-puts daily_time_series
+puts daily_time_series.light_blue
 
 # Rewrite the file including the new meta informatio
 File.open(DAILY_TIMESERIES_OUTPUT, "w") do |file|
