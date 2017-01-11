@@ -19,17 +19,19 @@ first_day.upto(last_day) do |date|
   series_watch_count = watches_on_date.select {|row| row[:type] == "series" }.size
   movies_watch_count = watches_on_date.select {|row| row[:type] == "movie" }.size
 
-  daily_time_series.push({
+  day_view = {
     :date => date.to_s,
     :minutes_watched => minutes_watched,
     :hours_watched => (minutes_watched.to_f / 60.0).round(2),
     :total_watches => watches_on_date.size,
     :series_watch_count => series_watch_count,
     :movies_watch_count => movies_watch_count
-  })
-end
+  }
 
-puts daily_time_series.light_blue
+  daily_time_series.push(day_view)
+
+  puts day_view.to_s.light_blue
+end
 
 # Rewrite the file including the new meta informatio
 File.open(DAILY_TIMESERIES_OUTPUT, "w") do |file|
